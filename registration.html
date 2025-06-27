@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>connect with us </title>
+    <link rel="stylesheet" href="creative.css"/>
+</head>
+<body>
+<header class="navbar">
+  
+    <img src="newlogo.jpg" alt="Logo" class="logo">
+    <nav class="navbar"> 
+    </nav>
+    </header>
+
+    <form action="#" method="post">
+  <h2>🍴 Share Your Food Experience</h2>
+
+  <!-- Name -->
+  <label for="name">Full Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <!-- Email -->
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <!-- Mobile Number -->
+  <label for="mobile">Mobile Number:</label><br>
+  <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br><br>
+
+  <!-- Location -->
+  <label for="location">Your Location:</label><br>
+  <input type="text" id="location" name="location"><br><br>
+
+  <!-- Choices -->
+  <label>Food Preferences:</label><br>
+  <input type="checkbox" id="veg" name="choices" value="Veg">
+  <label for="veg">Veg</label><br>
+
+  <input type="checkbox" id="nonveg" name="choices" value="Non-Veg">
+  <label for="nonveg">Non-Veg</label><br>
+
+  <input type="checkbox" id="indian" name="choices" value="Indian">
+  <label for="indian">Indian</label><br>
+
+  <input type="checkbox" id="italian" name="choices" value="Italian">
+  <label for="italian">Italian</label><br>
+
+  <input type="checkbox" id="continental" name="choices" value="Continental">
+  <label for="continental">Continental</label><br><br>
+
+  <!-- Suggestions -->
+  <label for="suggestions">Your Suggestions:</label><br>
+  <textarea id="suggestions" name="suggestions" rows="4" cols="40"></textarea><br><br>
+
+  <!-- Reviews -->
+  <label for="reviews">Write a Review:</label><br>
+  <textarea id="reviews" name="reviews" rows="4" cols="40" placeholder="Share your experience..."></textarea><br><br>
+
+  <!-- Ratings -->
+  <label for="rating">Rating (1 to 5):</label><br>
+  <select id="rating" name="rating">
+    <option value="1">⭐ 1</option>
+    <option value="2">⭐⭐ 2</option>
+    <option value="3">⭐⭐⭐ 3</option>
+    <option value="4">⭐⭐⭐⭐ 4</option>
+    <option value="5">⭐⭐⭐⭐⭐ 5</option>
+  </select><br><br>
+
+  <!-- Submit -->
+  <button type="submit">Submit</button>
+</form>
+<script src="creative.js"></script>
+
+
+</body>
+</html>
